@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import tvaovivoLogo from '/tv-ao-vivo.svg';
+import imgurl from './assets/canais';
 import './App.css';
 
 function App() {
@@ -9,102 +10,102 @@ function App() {
   const channels = [
     {
       name: "Rede Globo",
-      logo: "./assets/canais/globo.png",
+      logo: imgurl+"/globo.png",
       url: "https://reidoscanais.tv/embed/?id=globoma-tvmirantessaoluis"
     },
     {
       name: "SBT",
-      logo: "./assets/canais/sbt.png",
+      logo: imgurl+"/sbt.png",
       url: "https://reidoscanais.tv/embed/?id=sbt"
     },
     {
       name: "Band",
-      logo: "./assets/canais/band.png",
+      logo: imgurl+"/band.png",
       url: "https://reidoscanais.tv/embed/?id=band"
     },
     {
       name: "Record",
-      logo: "./assets/canais/record.png",
+      logo: imgurl+"/record.png",
       url: "https://reidoscanais.tv/embed/?id=record"
     },
     {
       name: "RedeTV",
-      logo: "./assets/canais/redetv.png",
+      logo: imgurl+"/redetv.png",
       url: "https://reidoscanais.tv/embed/?id=redetv"
     },
     {
       name: "TV Cultura",
-      logo: "./assets/canais/tvcultura.png",
+      logo: imgurl+"/tvcultura.png",
       url: "https://reidoscanais.tv/embed/?id=tvcultura"
     },
     {
       name: "TV Brasil",
-      logo: "./assets/canais/tvbrasil.png",
+      logo: imgurl+"/tvbrasil.png",
       url: "https://reidoscanais.tv/embed/?id=tvbrasil"
     },
     {
       name: "Globo News",
-      logo: "./assets/canais/globonews.png",
+      logo: imgurl+"/globonews.png",
       url: "https://reidoscanais.tv/embed/?id=globonews"
     },
     {
       name: "CNN BR",
-      logo: "./assets/canais/cnnbr.png",
+      logo: imgurl+"/cnnbr.png",
       url: "https://reidoscanais.tv/embed/?id=cnnbr"
     },
     {
       name: "Band News",
-      logo: "./assets/canais/bandnews.png",
+      logo: imgurl+"/bandnews.png",
       url: "https://reidoscanais.tv/embed/?id=bandnews"
     },
     {
       name: "ESPN",
-      logo: "./assets/canais/espn.png",
+      logo: imgurl+"/espn.png",
       url: "https://reidoscanais.tv/embed/?id=espn"
     },
     {
       name: "SporTV",
-      logo: "./assets/canais/sportv.png",
+      logo: imgurl+"/sportv.png",
       url: "https://reidoscanais.tv/embed/?id=sportv"
     },
     {
       name: "SporTV 2",
-      logo: "./assets/canais/sportv.png",
+      logo: imgurl+"/sportv.png",
       url: "https://reidoscanais.tv/embed/?id=sportv2"
     },
     {
       name: "SporTV 3",
-      logo: "./assets/canais/sportv.png",
+      logo: imgurl+"/sportv.png",
       url: "https://reidoscanais.tv/embed/?id=sportv3"
     },
     {
       name: "SporTV 4",
-      logo: "./assets/canais/sportv.png",
+      logo: imgurl+"/sportv.png",
       url: "https://reidoscanais.tv/embed/?id=sportv4"
     },
     {
       name: "Premiere Clubes",
-      logo: "./assets/canais/premiere.png",
+      logo: imgurl+"/premiere.png",
       url: "https://reidoscanais.tv/embed/?id=premiereclubes"
     },
     {
       name: "Premiere 2",
-      logo: "./assets/canais/premiere.png",
+      logo: imgurl+"/premiere.png",
       url: "https://reidoscanais.tv/embed/?id=premiere2"
     },
     {
       name: "Premiere 3",
-      logo: "./assets/canais/premiere.png",
+      logo: imgurl+"/premiere.png",
       url: "https://reidoscanais.tv/embed/?id=premiere3"
     },
     {
       name: "Premiere 4",
-      logo: "./assets/canais/premiere.png",
+      logo: imgurl+"/premiere.png",
       url: "https://reidoscanais.tv/embed/?id=premiere4"
     },
     {
       name: "Premiere 5",
-      logo: "./assets/canais/premiere.png",
+      logo: imgurl+"/premiere.png",
       url: "https://reidoscanais.tv/embed/?id=premiere5"
     }
   ];
